@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+.navbar-brand {
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px !important;
+  padding-left: 25px;
+}
+
+.navbar {
+  background-color: #eee !important;
+}
+
+.hero-content > .btn {
+  background-color: #c97551 !important;
+  border-color: #c97551 !important;
+  color: #fff;
+}
+
+.hero-content > .btn:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  object-fit: fill;
+}
+
+.hero-content {
+  position: absolute;
+  /* text-align: center; */
+  color: white;
+  padding: 3rem;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.footer {
+  background-color: #333;
+  color: #fefefe;
+}
+
+.lessons {
+  padding: 5rem;
+}
+
+.testimonials {
+  padding: 5rem;
+  background-color: #eee;
+}
+
+.testimonial {
+  padding: 1rem;
+}
+
+body > div.testimonials > div > p {
+  font-size: 16px;
+}
+
+.person {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-right: 3rem;
+}
+
+.person > p {
+  font-size: 18px;
+}
+
+.person > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.tags {
+  display: flex;
+}
+
+.tags > :not(div:first-child) {
+  margin-left: 1rem;
+}
+
+.tag > p {
+  border: 2px solid black;
+  border-radius: 100px;
+  padding: 2px 10px;
+  display: inline-block;
+  font-weight: 600;
+}
+
+.book-now {
+  border: 2px solid black;
+  border-radius: 100px;
+  padding: 2px 10px;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #c97551 !important;
+  border-color: #c97551 !important;
+  color: #fff;
+}
+
+.book-now:hover {
+  text-decoration: underline;
+}
+
+.comments-section {
+  margin: 50px 0;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {
+  .hero-content {
+    width: 100%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) {
+  .hero-content {
+    width: 100%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .hero-content {
+    width: 50%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
